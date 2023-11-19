@@ -1,0 +1,230 @@
+@media (max-width:1010px) {
+	/*Menu*/
+
+	nav ul {
+		display:none;
+		position:absolute;
+		left:0;
+		top:5rem;
+		width:100%;
+		height:auto;
+		padding:2%;
+		flex-direction:column;
+		align-items:flex-start;
+		row-gap:25px;
+		background-color:rgba(74, 82, 120, 1) !important;
+	}
+
+	nav ul li a{
+		color:white;
+	}
+
+	a:active , .active {
+	color:white;
+	}	
+
+	a:active a:before{
+	display:none;
+	}
+
+	.active:before {
+	display:none;
+	}
+
+	.container-burger{
+		display:inline-block;
+	}
+
+	/*Header*/
+
+	header{
+		row-gap:15px;
+		height:100%;
+	}
+
+	header h1{
+	font-size:1.5rem;
+	}
+
+	header p{
+	font-size:0.7rem;
+	max-width:100%;
+	}
+
+	/*Stats*/
+
+	section.stats{
+	padding:5% 2.7%;
+
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	alig-items:center;
+
+	color:White;
+	}
+
+	.stats h3{
+	font-size:1.5rem;
+	font-weight:900;
+	}
+
+	.stats p {
+	max-width:100%;
+	font-size:0.9rem;
+
+	line-height:25px;
+	}
+
+	.box-stats .icon {
+		width:50px;
+		heigh:50px;
+	}
+
+	/*Atomic Headline*/
+
+	.atomic-headline{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+
+	padding:5% 2.7%;
+
+	min-height:100%;
+
+	row-gap:30px;
+	}
+
+	.title-div{
+
+	margin-right:auto;
+
+	font-size:1.1rem;
+
+	max-width:100%;
+
+	height:100%;
+	}
+
+	.atomic-features p {
+	font-size:1.2rem;
+	line-height:25px;
+	text-align:justify;
+	color:#8d8d94;
+	}
+
+	.all-atomic-features{
+	max-width:100%;
+	align-items:center;
+	justify-content:Center;
+	}
+
+	.atomic-features{
+	padding:10%;
+
+	width:100%;
+	height:225px;
+
+	line-height:40px;
+
+	box-shadow:0px 15px 20PX -5px #8d8d94;
+	}
+
+	.atomic-features .icon {
+	margin-bottom:1rem;
+
+	width:30px;
+	height:30px;
+	}
+
+	/*Atomic Content*/
+
+	section.atomic-content-1{
+	flex-direction:column;
+	justify-content:center;
+	}
+
+	.atomic-description{
+	max-width:100%;
+
+	margin:2rem 0;
+	}
+
+	.atomic-photo-1{
+	margin:2rem 0;
+	width:auto;
+	height:200px;
+	}
+
+	/*Headline Section*/
+
+	section.headline{
+	padding:10% 2.7%;
+	row-gap:30px;
+	}
+
+	section.headline h1{
+	font-size:1.5rem;
+	}
+
+	section.headline p{
+	text-align:center;
+	}
+
+	section.headline button {
+		padding:2% 4%;
+	}
+
+	/*Final Section*/
+
+	section.final {
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+	width:100%;
+
+	padding:5% 2.7%;
+
+	background-color:black;
+	}
+
+	.final .detailsandmenu {
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	}
+
+	.final .details{
+	max-width:100%;
+	}
+
+	.final p {
+	font-size:1.1rem;
+	line-height:26px;
+	}
+
+	.icon-fb{
+	padding:2%;
+	width:40px;
+	height:40px;
+	}
+
+	.final-menu {
+	display:flex;
+	flex-direction:column;
+	row-gap:90px;
+
+	margin-right:0rem;
+	}
+
+	div.the-end{
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:2rem;
+	}
+
+}
