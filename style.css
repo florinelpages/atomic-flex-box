@@ -84,6 +84,8 @@ nav{
 	width:100%;
 	padding:0 2.7%;
 	height:5rem;
+
+	z-index:1;
 }
 
 nav ul{
